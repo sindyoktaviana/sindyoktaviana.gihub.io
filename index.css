@@ -1,0 +1,111 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	font-family; sans-serif;
+	background-color: #f4f4f4;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+header{
+	background : #4682B4;  
+	color: #fff;
+	padding-top: 18px;
+	min-height: 70px;
+
+}
+
+header #branding{
+	float: left;
+}
+
+header #branding h1{
+	margin: 0;
+}
+
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+header #branding, header .active a{
+	color: #fff;
+	font-weight: bold;
+}
+
+header a:hover{
+	color: #000046
+	font-weight: bold;
+}
+
+#showcase{
+	min-height: 495px;
+	background: url(imge/cobasaja.jpg);
+	text-align: center;
+	color: #000046
+}
+
+#showcase h1{
+	margin-top: 120px;
+	font-size: 55px;
+	margin-bottom: 10px;
+	text-shadow: 2px 2 px 5px #960083;
+}
+
+#showcase p{
+	font-size: 20px;
+}
+
+#newsletter{
+	padding: 15px;
+	color: black;
+}
+
+#newsletter h1{
+	text-align: center;
+}
+
+#newsletter form{
+	float: right;
+	margin-top: 15px;
+}
+
+
+#boxes .box{
+	float: left;
+	text-align: center; 
+	width: 30%;
+	padding: 10px;
+}
+
+footer{
+	padding: 10px;
+	margin-top: 10px;
+	background: 	#4682B4;
+	text-align: center;
+	color: white;
+
+
